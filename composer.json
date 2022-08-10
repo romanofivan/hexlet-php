@@ -1,9 +1,9 @@
 {
     "name": "romanofivan/hexlet-php",
     "autoload": {
-        "psr-4": {
-            "Romanofivan\\HexletPhp\\": "src/"
-        }
+	"files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +11,7 @@
             "email": "romanofivan@rambler.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.16"
+    }
 }
